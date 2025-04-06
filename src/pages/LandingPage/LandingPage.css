@@ -1,0 +1,123 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+
+/* Global Styles for Dark Theme */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1f1f1f;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  
+  .nav a, .dropbtn {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #e0e0e0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover, .dropbtn:hover {
+    background-color: #333333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(45deg, #1f1f1f, #3f3f3f);
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section .buttons .btn {
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero-section .btn-primary {
+    background-color: #ff5722;
+  }
+  
+  .hero-section .btn-secondary {
+    background-color: #2196f3;
+  }
+  
+  /* Features Section */
+  .features-section {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .feature-card {
+    padding: 1rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .feature-card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .feature-card .icon {
+    font-size: 2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #1f1f1f;
+    border-top: 1px solid #333333;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #e0e0e0;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #ff5722;
+  }
+  

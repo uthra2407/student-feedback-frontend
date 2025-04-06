@@ -1,0 +1,78 @@
+/* src/components/FeedbackForm.css */
+
+.feedback-form {
+  background-color: #1c1c1c; /* Slightly lighter black for contrast */
+  color: #f5f5f5; /* Softer white for readability */
+  padding: 30px; /* Increased padding for better spacing */
+  border-radius: 15px; /* More rounded corners for modern look */
+  width: 50%; /* Slightly narrower for cleaner alignment */
+  margin: 30px auto; /* Added vertical margin */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.feedback-form h2 {
+  text-align: center;
+  color: #03a9f4; /* Brighter cyan for emphasis */
+  margin-bottom: 20px; /* Space between heading and content */
+  font-size: 2rem; /* Larger heading for clarity */
+}
+
+label {
+  display: block; /* Stack labels vertically */
+  font-weight: bold;
+  margin: 15px 0 5px; /* Space between labels and inputs */
+  font-size: 1rem;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 95%;
+  padding: 12px;
+  background-color: #292929; /* Slightly lighter gray for inputs */
+  color: #f5f5f5; /* Softer white text */
+  border: 1px solid #444; /* Neutral border */
+  border-radius: 8px; /* Rounded input fields */
+  resize: none; /* Disable resize for consistency */
+  font-size: 1rem;
+  margin-bottom: 15px; /* Space below each input */
+}
+
+textarea:focus,
+input:focus {
+  border-color: #03a9f4; /* Cyan border when focused */
+  outline: none; /* Remove default focus outline */
+  background-color: #333; /* Slightly darker focus background */
+}
+
+button {
+  background-color: #03a9f4;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1.2rem; /* Slightly larger font for buttons */
+  border-radius: 8px; /* Rounded buttons */
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+  background-color: #0288d1; /* Darker cyan on hover */
+}
+
+.feedback-form h3 {
+  margin-top: 20px;
+  color: #f5f5f5; /* Consistent text color */
+  font-size: 1.2rem;
+}
+
+.feedback-form p {
+  font-size: 0.9rem;
+  color: #bbb; /* Subtle gray for supporting text */
+  margin-top: 10px;
+  text-align: center;
+}

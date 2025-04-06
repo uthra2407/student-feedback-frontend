@@ -1,0 +1,28 @@
+/* src/components/ViewFeedback.css */
+.view-feedback {
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .view-feedback h2 {
+    text-align: center;
+    color: #00bcd4;
+  }
+  
+  .feedback-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feedback-list li {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  

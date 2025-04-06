@@ -1,0 +1,18 @@
+# Use Node.js official image
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package.json package-lock.json ./
+RUN npm install
+
+# Copy the project files
+COPY . .
+
+# Build React app
+RUN npm run build
+
+# Serve the React app
+CMD ["npx", "serve", "-s", "build"]
