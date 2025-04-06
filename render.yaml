@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: feedback-frontend
+    env: static
+    buildCommand: "./build.sh"
+    staticPublishPath: build
+    envVars:
+      - key: NODE_VERSION
+        value: 18
